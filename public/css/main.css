@@ -1,0 +1,66 @@
+.beer-img {
+  margin-top: 40px;
+  height: 30em;
+  width: auto;
+}
+.list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.beer-detail {
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+}
+select.#beer-select {
+  margin: auto;
+  color: orange;
+}
+
+#selected-beer,
+.beer {
+  margin-top: 50px;
+  color: orange;
+  align-items: center;
+}
+
+.container_about .beer {
+  margin-left: 33%;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  font-family: monospace;
+}
+
+.mapouter {
+  margin-top: 20em;
+  margin: 15%;
+}
+
+.container {
+  background-image: url("./background.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.index-footer {
+  margin-top: 80em;
+  background-color: #00000050;
+  color: white;
+  padding: 30px;
+}

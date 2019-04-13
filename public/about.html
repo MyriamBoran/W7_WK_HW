@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Brewdog</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="index" href="public/index.html" />
+    <script src="js/bundle.js"></script>
+    <link
+      href="http://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <a href="index.html"><h1>Brewdog's Beer</h1></a>
+    <div class="container_about">
+      <p>
+        COMMITTED TO THE CRAFT At BrewDog we are on a mission to make other
+        people as passionate about great craft beer as we are. We are committed
+        to putting the passion, the flavour and the artisan craftsmanship back
+        into people’s glasses. Select a beer and learn a little bit about it.
+      </p>
+      <label class="beer" for="beer-select">View beers by name:</label>
+      <select id="beer-select">
+        <option selected disabled></option>
+      </select>
+    </div>
+    <div id="selected-beer"></div>
+
+    <footer>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="900"
+            height="400"
+            src="https://maps.google.com/maps?q=brew%20dog%20edinburgh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+          >
+          </iframe>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
